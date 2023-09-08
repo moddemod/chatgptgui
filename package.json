@@ -1,0 +1,21 @@
+{
+  "name": "chatgpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.1.0",
+    "electron-builder": "^23.6.0",
+    "electron-clipboard-observer": "^1.0.0"
+  },
+  "dependencies": {
+    "clipboard-monitor": "^1.0.2",
+    "electron-clipboard-watcher": "^1.0.1"
+  }
+}
